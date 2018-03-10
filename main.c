@@ -1,6 +1,6 @@
 #include "stdio.h"
 
-int powMod(long long base, long n, long c) {
+int powMod(long long base,long long n,long long c) {
 	long long ans = 1, b = n;
 	base = base % c;
 	while(b != 0) {
